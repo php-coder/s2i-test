@@ -4,5 +4,5 @@ env
 
 wget 'http://eclipse.org/downloads/download.php?file=/jetty/stable-9/dist/jetty-distribution-9.3.6.v20151106.tar.gz&r=1' -O jetty-distribution-9.3.6.v20151106.tar.gz
 tar zxvf jetty-distribution-9.3.6.v20151106.tar.gz
-mv jetty-distribution-9.3.6.v20151106 /opt/jetty
+mv jetty-distribution-9.3.6.v20151106 $HOME/jetty
 
