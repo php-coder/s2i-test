@@ -1,8 +1,7 @@
 #!/bin/sh -x
 
-echo "=== Run ==="
-getent ahosts example.com || echo "Unknown host"
-getent ahosts www.example.com || echo "Unknown host"
-cat /etc/resolv.conf
 env
-sleep 300
+
+cd /opt/jetty
+java -jar start.jar
+
