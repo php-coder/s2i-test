@@ -1,4 +1,4 @@
-FROM openshift/wildfly-81-centos7:latest
+FROM java:8
 MAINTAINER Slava Semushin <semushin@redhat.com>
 
 RUN mkdir /opt/jetty
