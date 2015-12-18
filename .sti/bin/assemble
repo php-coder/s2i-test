@@ -8,5 +8,6 @@ if [ -z "$JETTY_URL" ]; then
 fi
 
 mkdir $HOME/jetty
-wget "$JETTY_URL" -O - | tar zxf - -C $HOME/jetty
-
+wget "$JETTY_URL" -O - | tar zxvf - -C $HOME/jetty
+ls -l $HOME
+ls -l $HOME/jetty
