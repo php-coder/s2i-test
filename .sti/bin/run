@@ -2,6 +2,6 @@
 
 env
 
-cd $HOME/jetty
-java -jar start.jar
+ls -l ~
+ls -l /var/secrets
 
