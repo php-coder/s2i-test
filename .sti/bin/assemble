@@ -3,5 +3,5 @@
 env
 
 ls -l ~
-ls -l /var/secrets
+ls -l /tmp
 
