@@ -1,7 +1,0 @@
-#!/bin/sh -x
-
-env
-
-ls -l ~
-ls -l /var/secrets
-
