@@ -3,6 +3,7 @@
 env
 
 ls -l ~
+ls /
 cat ~/secret2.file
 cat ~/secret3.file
 
