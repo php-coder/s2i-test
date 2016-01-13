@@ -3,5 +3,9 @@
 env
 
 ls -l ~
+cat ~/secret2.file
+cat ~/secret3.file
+
 ls -l /tmp
+cat /tmp/secret1.file
 
