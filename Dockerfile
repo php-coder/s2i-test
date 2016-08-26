@@ -1,5 +1,6 @@
 FROM java:8
 MAINTAINER Slava Semushin <semushin@redhat.com>
+ARG JETTY_PORT=8080
 
 RUN env && id && pwd
 RUN mkdir /opt/jetty
@@ -9,5 +10,5 @@ RUN mv "$JETTY_DIR" /opt/jetty
 
 WORKDIR /opt/jetty
 
-EXPOSE 8080
+EXPOSE $JETTY_PORT
 ENTRYPOINT java -jar start.jar
