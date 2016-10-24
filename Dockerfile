@@ -10,5 +10,5 @@ RUN mv "$JETTY_DIR" /opt/jetty
 
 WORKDIR /opt/jetty
 
-EXPOSE $JETTY_PORT
+EXPOSE 9090 $JETTY_PORT
 ENTRYPOINT java -jar start.jar
