@@ -1,4 +1,4 @@
 #!/bin/sh -x
 
 pwd
-
+exit 1
