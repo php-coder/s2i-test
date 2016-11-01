@@ -2,6 +2,3 @@
 
 env
 
-cd $HOME/jetty
-java -jar start.jar
-
