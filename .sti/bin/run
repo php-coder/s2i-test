@@ -1,7 +1,0 @@
-#!/bin/sh -x
-
-env
-
-cd $HOME/jetty
-java -jar start.jar
-
