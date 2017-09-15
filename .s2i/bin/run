@@ -1,5 +1,6 @@
 #!/bin/bash
 
 echo "==== Executing run script"
+ls -l /tmp
 set -x
 sleep 10
